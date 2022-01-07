@@ -1,0 +1,9 @@
+{
+  "name": "@mayntri/hello-world-architecture",
+  "version": "1.0.3",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}
