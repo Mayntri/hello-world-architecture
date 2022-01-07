@@ -13,3 +13,5 @@ export const logger = {
 export const ping = () => logger.log('pong');
 
 export const time = () => new Date().toISOString();
+
+export const test = () => 'test';
