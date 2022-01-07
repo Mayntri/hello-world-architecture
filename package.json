@@ -1,9 +1,19 @@
 {
-  "name": "@mayntri/hello-world-architecture",
+  "name": "hello-world-architecture",
   "version": "1.0.3",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mayntri/hello-world-architecture.git"
+  },
   "description": "",
-  "main": "src/index.js",
-  "scripts": {},
+  "main": "dist/index.js",
+  "files": ["dist/**/*"],
+  "scripts": {
+    "build" : "tsc"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
 }
