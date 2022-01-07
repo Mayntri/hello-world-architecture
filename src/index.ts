@@ -1,4 +1,5 @@
 export * from './sum';
+export * from './hello';
 
 export const logger = {
   /* eslint-disable no-console */
