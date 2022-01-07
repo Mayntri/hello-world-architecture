@@ -22,6 +22,6 @@ jobs:
         run: npm test && npm run lint
       - name: Publish
         if: github.event_name != 'pull_request'
-        run: npm publish
+        run: npm publish --tag ${{ github.event.release.target_commitish }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
